@@ -1,0 +1,99 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background: #f5f5f5;
+  color: #333;
+  /* لون النص العام */
+}
+
+header {
+  text-align: center;
+  background-color: #1f2c39;
+  color: #ecf0f1;
+  padding: 20px;
+}
+
+a{
+  text-decoration: none;
+}
+.logo_img {
+  max-width: 100px;
+  max-height: 100px;
+  margin-bottom: 10px;
+  /* المسافة بين الصورة والعنوان */
+}
+
+.logo_h1 {
+  font-family: 'Arial', sans-serif;
+  /* اختيار الخط المناسب */
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+.logo_p {
+  font-family: 'Arial', sans-serif;
+  /* اختيار الخط المناسب */
+  font-size: 18px;
+  margin: 0;
+}
+
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li img {
+  max-width: 100px;
+  border-radius: 5px;
+  margin-right: 10px;
+  object-fit: cover;
+  /* تجعل الصورة تملأ المربع دون تشويه */
+  width: 100px;
+  height: 100px;
+}
+
+li div {
+  flex-grow: 1;
+}
+
+/* ألوان خلفيات المطابخ */
+#arabic {
+  background: linear-gradient(#dcd6f7, #ffffff);
+  /* المطبخ العربي*/
+}
+
+#american {
+  background: linear-gradient(#aed6f1, #ffffff);
+  /* المطبخ الأمريكي */
+}
+
+#italian {
+  background: linear-gradient(#abebc6, #ffffff);
+  /* المطبخ الإيطالي */
+}
+
+#chinese {
+  background: linear-gradient(#f8c471, #ffffff);
+  /* المطبخ الصيني */
+}

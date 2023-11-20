@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مطعم الجبل</title>
+  <!-- ربط Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f0f0f0;
+      padding-top: 50px;
+      /* توفير مسافة للشريط العلوي */
+    }
+
+    header {
+      background-color: #fff;
+      text-align: center;
+      padding: 20px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .logo_img {
+      max-width: 50px;
+      max-height: 50px;
+      margin-right: 10px;
+    }
+
+    .logo_h1 {
+      margin: 0;
+      color: #333;
+    }
+
+    .logo_p {
+      margin: 5px 0 0;
+      color: #888;
+    }
+
+    .container {
+      margin-top: 80px;
+      /* توفير مسافة بين الشريط العلوي والأقسام */
+    }
+
+    .section {
+      height: 200px;
+      border: 1px solid #ddd;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .section a {
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img class="logo_img" src="icon.png" alt="شعار المطعم">
+    <h1 class="logo_h1">مطعم الجبل</h1>
+    <p class="logo_p">في كل لقمة حكاية</p>
+  </header>
+  <div class="container">
+    <div class="row">
+      <!-- السكشن الأول -->
+      <div id="arabic" class="col-md-6">
+        <div class="section">
+          <a href="kitchen_sections\arabic.html" style="color: purple;">المطبخ العربي</a>
+        </div>
+      </div>
+
+      <!-- السكشن الثاني -->
+      <div id="american" class="col-md-6">
+        <div class="section">
+          <a href="kitchen_sections\american.html" style="color: #008080;">المطبخ الأمريكي</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <!-- السكشن الثالث -->
+      <div id="italian" class="col-md-6">
+        <div class="section">
+          <a href="kitchen_sections\italian.html" style="color: green;">المطبخ الإيطالي</a>
+        </div>
+      </div>
+
+      <!-- السكشن الرابع -->
+      <div id="chinese" class="col-md-6">
+        <div class="section">
+          <a href="kitchen_sections\chinese.html" style="color: #ff8c00;">المطبخ الصيني</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- قسم الفوتر -->
+  <footer>
+    <div class="container text-center">
+      <p>مشروع تنظيم الويب للطلاب تبارك حسين وايمن قحطان</p>
+      <p>&copy; 2023 مطعم الجبل. جميع الحقوق محفوظة.</p>
+    </div>
+  </footer>
+
+  <!-- ربط Bootstrap JS و Popper.js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
